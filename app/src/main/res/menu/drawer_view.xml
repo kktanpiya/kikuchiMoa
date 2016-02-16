@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_dashboarda"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_mykomuniti"
+            android:icon="@drawable/ic_mykomuniti"
+            android:title="My Komuniti" />
+        <item
+            android:id="@+id/nav_mysoal"
+            android:icon="@drawable/ic_mysoal"
+            android:title="My Soal" />
+        <item
+            android:id="@+id/nav_myhealth"
+            android:icon="@drawable/ic_myhealth"
+            android:title="My Health" />
+        <item
+            android:id="@+id/nav_myskool"
+            android:icon="@drawable/ic_myskool"
+            android:title="My Skool" />
+        <item
+            android:id="@+id/nav_myshop"
+            android:icon="@drawable/ic_myshop"
+            android:title="My Shop" />
+    </group>
+
+    <item android:title="Sub items">
+        <menu>
+            <item
+                android:icon="@drawable/ic_dashboard"
+                android:title="Sub item 1" />
+            <item
+                android:icon="@drawable/ic_forum"
+                android:title="Sub item 2" />
+        </menu>
+    </item>
+
+</menu>
